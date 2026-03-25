@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore all CSV and ZIP files (typical Kaggle data)
+*.csv
+*.zip
+*.7z
+
+# Or ignore the specific data folder if you have one
+/data/
+
+
